@@ -348,7 +348,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "A list of matching sites or intersections and their physical locations. See [address response](https://github.com/bcgov/api-specs/blob/master/geocoder/geocoder-developer-guide.md#resource-representations-in-http-responses)"
+                        "description": "A list of matching sites or intersections and their physical locations. See [address response](https://github.com/bcgov/api-specs/blob/master/geocoder/geocoder-developer-guide.md#resource-representations-in-http-responses){:target="_blank"}"
                     },
                     "400": {
                         "description": "Bad request"
