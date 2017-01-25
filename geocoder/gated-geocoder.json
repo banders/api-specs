@@ -66,7 +66,7 @@
                     {
                         "name": "outputFormat",
                         "in": "path",
-                        "description": "Results format. See [outputFormat] (https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#outputFormat),
+                        "description": "Results format. See [outputFormat] (https://github.com/bcgov/api-specs/blob/master/geocoder/glossary.md#outputFormat)",
                         "type": "string",
                         "required": true,
                         "default": "json",
