@@ -229,6 +229,20 @@
                         }
                     },
                     {
+                        "name": "allowOverlap",
+                        "in": "query",
+                        "description": "Select this option to allow overlapping geometries",
+                        "required": false,
+                        "schema": {
+                            "type": "boolean",
+                            "enum": [
+                              false,
+                              true
+                            ],
+                            "default": false
+                        }
+                    },
+                    {
                         "name": "callback",
                         "in": "query",
                         "description": "The callback function a JSON result format would be wrapped in to support Ajax requests.",
