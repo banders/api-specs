@@ -237,7 +237,8 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     },
                     {
@@ -246,7 +247,8 @@
                         "description": "A filter to search based on the the text of the name itself.  Use the asterisk (*) as a wildcard character.  For example 'vancouv*'",
                         "required": true,
                         "schema": {
-                            "type": "string"
+                            "type": "string",
+                            "example": "Victoria"
                         }
                     },
                     {
@@ -410,7 +412,8 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     },
                     {
@@ -419,7 +422,8 @@
                         "description": "A filter to search based on the the text of the name itself.  Use the asterisk (*) as a wildcard character.  For example 'vancouv*'",
                         "required": true,
                         "schema": {
-                            "type": "string"
+                            "type": "string",
+                            "example": "Victoria"
                         }
                     },
                     {
@@ -583,7 +587,8 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     },
                     {
@@ -592,7 +597,8 @@
                         "description": "A geographic bounding box defining the search area.  Must be specified as a string of the form 'minLongitude,minLatitude,maxLongitude,maxLatitude' (WGS84). e.g. -119,49,-118,50",
                         "required": true,
                         "schema": {
-                            "type": "string"
+                            "type": "string",
+                            "example": "-119,49,-118,50"
                         }
                     },
                     {
@@ -741,7 +747,8 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     },
                     {
@@ -750,7 +757,8 @@
                         "description": "A geographic coordinate specifying the centre point of the search area.  Must be specified as a string of the form 'longitude,latitude' (WGS84).  e.g. -120,51",
                         "required": true,
                         "schema": {
-                            "type": "string"
+                            "type": "string",
+                            "example": "-120,51"
                         }
                     },
                     {
@@ -908,7 +916,8 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     },
                     {
@@ -918,7 +927,8 @@
                         "required": true,
                         "schema": {
                             "type": "integer",
-                            "default": 30
+                            "default": 30,
+                            "example": "30"
                         }
                     },
                     {
@@ -1067,7 +1077,8 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     },
                     {
@@ -1076,7 +1087,8 @@
                         "description": "The year in which to search for names affected by naming decisions'.",
                         "required": true,
                         "schema": {
-                            "type": "integer"
+                            "type": "integer",
+                            "example": "2007"
                         }
                     },
                     {
@@ -1225,7 +1237,8 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     },
                     {
@@ -1234,7 +1247,8 @@
                         "description": "Defines the earliest date (YYYY-MM-DD format) of the change time window for the search",
                         "required": true,
                         "schema": {
-                            "type": "integer"
+                            "type": "integer",
+                            "example": "2017-01-01"
                         }
                     },
                     {
@@ -1243,7 +1257,8 @@
                         "description": "Defines the latest date (YYYY-MM-DD format) of the change time window for the search",
                         "required": true,
                         "schema": {
-                            "type": "integer"
+                            "type": "integer",
+                            "example": "2017-06-30"
                         }
                     },
                     {
@@ -1384,7 +1399,8 @@
                         "description": "The unique identifier for a name",
                         "required": true,
                         "schema": {
-                            "type": "integer"
+                            "type": "integer",
+                            "example": 22474
                         }
                     },
                     {
@@ -1401,7 +1417,8 @@
                                 "csv",
                                 "html"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     }
                 ],
@@ -1429,7 +1446,8 @@
                         "description": "The unique identifier for a feature",
                         "required": true,
                         "schema": {
-                            "type": "integer"
+                            "type": "integer",
+                            "example": 8879
                         }
                     }
                 ],
@@ -1462,7 +1480,8 @@
                                 "json",
                                 "xml"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     }
                 ],
@@ -1492,7 +1511,8 @@
                                 "json",
                                 "xml"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     }
                 ],
@@ -1522,7 +1542,8 @@
                                 "json",
                                 "xml"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     }
                 ],
@@ -1552,7 +1573,8 @@
                                 "json",
                                 "xml"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example":, "json"
                         }
                     }
                 ],
