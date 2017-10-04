@@ -62,7 +62,8 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json"
+                            "default": "json",
+                            "example": "json"
                         }
                     },
                     {
@@ -71,7 +72,8 @@
                         "description": "A filter to search based on the the text of the name itself.  Use the asterisk (*) as a wildcard character.  For example 'vancouv*'",
                         "required": true,
                         "schema": {
-                            "type": "string"
+                            "type": "string",
+                            "example": "Victoria"
                         }
                     },
                     {
