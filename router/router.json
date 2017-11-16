@@ -29,22 +29,10 @@
             "name": "directions"
         },
         {
-            "name": "routes"
+            "name": "distance"
         },
         {
             "name": "route"
-        },
-        {
-            "name": "routing"
-        },
-        {
-            "name": "route planning"
-        },
-        {
-            "name": "shortest route"
-        },
-        {
-            "name": "fastest route"
         }
     ],
     "security": [
