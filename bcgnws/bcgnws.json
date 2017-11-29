@@ -2,10 +2,16 @@
     "openapi": "3.0.0",
     "servers": [
         {
-            "url": "https://apps.gov.bc.ca/pub/bcgnws"
+            "url": "https://apps.gov.bc.ca/pub/bcgnws",
+            "description": "Production"
         },
         {
-            "url": "http://apps.gov.bc.ca/pub/bcgnws"
+            "url": "https://test.apps.gov.bc.ca/pub/bcgnws",
+            "description": "Test"
+        },
+        {
+            "url": "https://delivery.apps.gov.bc.ca/pub/bcgnws",
+            "description": "Delivery"
         }
     ],
     "info": {
