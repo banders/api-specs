@@ -2,7 +2,16 @@
     "openapi": "3.0.0",
     "servers": [
         {
-            "url": "https://router.api.gov.bc.ca/"
+            "url": "https://router.api.gov.bc.ca/",
+            "description": "Production"
+        },
+        {
+            "url": "https://routertst.api.gov.bc.ca/",
+            "description": "Test"
+        },
+        {
+            "url": "https://routerdlv.api.gov.bc.ca/",
+            "description": "Delivery"
         }
     ],
     "info": {

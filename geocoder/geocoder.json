@@ -2,10 +2,16 @@
     "openapi": "3.0.0",
     "servers": [
         {
-            "url": "https://apps.gov.bc.ca/pub/geocoder"
+            "url": "https://apps.gov.bc.ca/pub/geocoder",
+            "description": "Production"
         },
         {
-            "url": "http://apps.gov.bc.ca/pub/geocoder"
+            "url": "https://test.apps.gov.bc.ca/pub/geocoder",
+            "description": "Test"
+        },
+        {
+            "url": "https://delivery.apps.gov.bc.ca/pub/geocoder",
+            "description": "Delivery"
         }
     ],
     "info": {

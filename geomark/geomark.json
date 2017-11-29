@@ -2,10 +2,16 @@
     "openapi": "3.0.0",
     "servers": [
         {
-            "url": "https://apps.gov.bc.ca/pub/geomark"
+            "url": "https://apps.gov.bc.ca/pub/geomark",
+            "description": "Production"
         },
         {
-            "url": "http://apps.gov.bc.ca/pub/geomark"
+            "url": "https://test.apps.gov.bc.ca/pub/geomark",
+            "description": "Test"
+        },
+        {
+            "url": "https://delivery.apps.gov.bc.ca/pub/geomark",
+            "description": "Delivery"
         }
     ],
     "info": {
