@@ -6,11 +6,11 @@
             "description": "Production"
         },
         {
-            "url": "https://cat.data.gov.bc.ca/",
+            "url": "https://cat.data.gov.bc.ca/api/3",
             "description": "Test"
         },
         {
-            "url": "https://cad.data.gov.bc.ca/",
+            "url": "https://cad.data.gov.bc.ca/api/3",
             "description": "Delivery"
         }
     ],
