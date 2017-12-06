@@ -68,9 +68,9 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "name",
@@ -78,9 +78,9 @@
                         "description": "A filter to search based on the the text of the name itself.  Use the asterisk (*) as a wildcard character.  For example 'vancouv*'",
                         "required": true,
                         "schema": {
-                            "type": "string",
-                            "example": "Victoria"
-                        }
+                            "type": "string"
+                        },
+                        "example": "Victoria"
                     },
                     {
                         "name": "exactSpelling",
@@ -243,9 +243,9 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "name",
@@ -253,9 +253,9 @@
                         "description": "A filter to search based on the the text of the name itself.  Use the asterisk (*) as a wildcard character.  For example 'vancouv*'",
                         "required": true,
                         "schema": {
-                            "type": "string",
-                            "example": "Victoria"
-                        }
+                            "type": "string"
+                        },
+                        "example": "Victoria"
                     },
                     {
                         "name": "exactSpelling",
@@ -418,9 +418,9 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "name",
@@ -428,9 +428,9 @@
                         "description": "A filter to search based on the the text of the name itself.  Use the asterisk (*) as a wildcard character.  For example 'vancouv*'",
                         "required": true,
                         "schema": {
-                            "type": "string",
-                            "example": "Victoria"
-                        }
+                            "type": "string"
+                        },
+                        "example": "Victoria"
                     },
                     {
                         "name": "exactSpelling",
@@ -593,9 +593,9 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "bbox",
@@ -603,9 +603,9 @@
                         "description": "A geographic bounding box defining the search area.  Must be specified as a string of the form 'minLongitude,minLatitude,maxLongitude,maxLatitude' (WGS84). e.g. -119,49,-118,50",
                         "required": true,
                         "schema": {
-                            "type": "string",
-                            "example": "-119,49,-118,50"
-                        }
+                            "type": "string"
+                        },
+                        "example": "-119,49,-118,50"
                     },
                     {
                         "name": "featureClass",
@@ -753,9 +753,9 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "-119,49,-118,50"
                     },
                     {
                         "name": "featurePoint",
@@ -763,9 +763,9 @@
                         "description": "A geographic coordinate specifying the centre point of the search area.  Must be specified as a string of the form 'longitude,latitude' (WGS84).  e.g. -120,51",
                         "required": true,
                         "schema": {
-                            "type": "string",
-                            "example": "-120,51"
-                        }
+                            "type": "string"
+                        },
+                        "example": "-120,51"
                     },
                     {
                         "name": "distance",
@@ -922,9 +922,9 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "days",
@@ -933,9 +933,9 @@
                         "required": true,
                         "schema": {
                             "type": "integer",
-                            "default": 30,
-                            "example": "30"
-                        }
+                            "default": 30
+                        },
+                        "example": "30"
                     },
                     {
                         "name": "featureClass",
@@ -1083,9 +1083,9 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "year",
@@ -1093,9 +1093,9 @@
                         "description": "The year in which to search for names affected by naming decisions'.",
                         "required": true,
                         "schema": {
-                            "type": "integer",
-                            "example": "2007"
-                        }
+                            "type": "integer"
+                        },
+                        "example": "2007"
                     },
                     {
                         "name": "featureClass",
@@ -1243,9 +1243,9 @@
                                 "kml",
                                 "csv"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "fromDate",
@@ -1253,9 +1253,9 @@
                         "description": "Defines the earliest date (YYYY-MM-DD format) of the change time window for the search",
                         "required": true,
                         "schema": {
-                            "type": "integer",
-                            "example": "2017-01-01"
-                        }
+                            "type": "integer"
+                        },
+                        "example": "2017-01-01"
                     },
                     {
                         "name": "toDate",
@@ -1263,9 +1263,9 @@
                         "description": "Defines the latest date (YYYY-MM-DD format) of the change time window for the search",
                         "required": true,
                         "schema": {
-                            "type": "integer",
-                            "example": "2017-06-30"
-                        }
+                            "type": "integer"
+                        },
+                        "example": "2017-06-30"
                     },
                     {
                         "name": "featureClass",
@@ -1405,9 +1405,9 @@
                         "description": "The unique identifier for a name",
                         "required": true,
                         "schema": {
-                            "type": "integer",
-                            "example": 22474
-                        }
+                            "type": "integer"
+                        },
+                        "example": 22474
                     },
                     {
                         "name": "outputFormat",
@@ -1423,9 +1423,9 @@
                                 "csv",
                                 "html"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     }
                 ],
                 "responses": {
@@ -1452,9 +1452,9 @@
                         "description": "The unique identifier for a feature",
                         "required": true,
                         "schema": {
-                            "type": "integer",
-                            "example": 8879
-                        }
+                            "type": "integer"
+                        },
+                        "example": 8879
                     }
                 ],
                 "responses": {
@@ -1486,9 +1486,9 @@
                                 "json",
                                 "xml"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     }
                 ],
                 "responses": {
@@ -1517,9 +1517,9 @@
                                 "json",
                                 "xml"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     }
                 ],
                 "responses": {
@@ -1548,9 +1548,9 @@
                                 "json",
                                 "xml"
                             ],
-                            "default": "json",
-                            "example": "json"
-                        }
+                            "default": "json"
+                        },
+                        "example": "json"
                     }
                 ],
                 "responses": {
@@ -1579,9 +1579,9 @@
                                 "json",
                                 "xml"
                             ],
-                            "default": "json",
-                            "example":, "json"
-                        }
+                            "default": "json"
+                        },
+                        "example":, "json"
                     }
                 ],
                 "responses": {
