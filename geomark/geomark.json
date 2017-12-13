@@ -233,7 +233,8 @@
                                 "gml",
                                 "wkt"
                             ]
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "allowOverlap",
@@ -357,7 +358,7 @@
                     {
                         "name": "geomarkId",
                         "in": "path",
-                        "description": "The unique identifier for the geomark (e.g. gm-abcdefghijklmnopqrstuv0bcislands).",
+                        "description": "The unique identifier for the geomark",
                         "required": true,
                         "schema": {
                             "type": "string"
@@ -432,12 +433,12 @@
                     {
                         "name": "geomarkId",
                         "in": "path",
-                        "description": "The unique identifier for the geomark (e.g. gm-abcdefghijklmnopqrstuv0bcislands).",
+                        "description": "The unique identifier for the geomark",
                         "required": true,
                         "schema": {
                             "type": "string"
                         },
-                        "example": "abcdefghijklmnopqrstuv0bcislands"
+                        "example": "gm-abcdefghijklmnopqrstuv0bcislands"
                     },
                     {
                         "name": "fileFormatExtension",
@@ -507,12 +508,12 @@
                     {
                         "name": "geomarkId",
                         "in": "path",
-                        "description": "The unique identifier for the geomark (e.g. gm-abcdefghijklmnopqrstuv0bcislands).",
+                        "description": "The unique identifier for the geomark.",
                         "required": true,
                         "schema": {
                             "type": "string"
                         },
-                        "example": "abcdefghijklmnopqrstuv0bcislands"
+                        "example": "gm-abcdefghijklmnopqrstuv0bcislands"
                     },
                     {
                         "name": "fileFormatExtension",
@@ -582,12 +583,12 @@
                     {
                         "name": "geomarkId",
                         "in": "path",
-                        "description": "The unique identifier for the geomark (e.g. gm-abcdefghijklmnopqrstuv0bcislands).",
+                        "description": "The unique identifier for the geomark",
                         "required": true,
                         "schema": {
                             "type": "string"
                         },
-                        "example": "abcdefghijklmnopqrstuv0bcislands"
+                        "example": "gm-abcdefghijklmnopqrstuv0bcislands"
                     },
                     {
                         "name": "fileFormatExtension",
@@ -657,12 +658,12 @@
                     {
                         "name": "geomarkId",
                         "in": "path",
-                        "description": "The unique identifier for the geomark (e.g. gm-abcdefghijklmnopqrstuv0bcislands).",
+                        "description": "The unique identifier for the geomark.",
                         "required": true,
                         "schema": {
                             "type": "string"
                         },
-                        "example": "abcdefghijklmnopqrstuv0bcislands"
+                        "example": "gm-abcdefghijklmnopqrstuv0bcislands"
                     },
                     {
                         "name": "fileFormatExtension",
