@@ -212,7 +212,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "https://apps.gov.bc.ca/pub/geomark/geomarks/gm-abcdefghijklmnopqrstuv0bcislands"
                     },
                     {
                         "name": "resultFormat",
@@ -360,7 +361,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "gm-abcdefghijklmnopqrstuv0bcislands"
                     },
                     {
                         "name": "fileFormatExtension",
@@ -380,7 +382,8 @@
                                 "gml",
                                 "wkt"
                             ]
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "srid",
@@ -433,7 +436,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "abcdefghijklmnopqrstuv0bcislands"
                     },
                     {
                         "name": "fileFormatExtension",
@@ -453,7 +457,8 @@
                                 "gml",
                                 "wkt"
                             ]
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "srid",
@@ -506,7 +511,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "abcdefghijklmnopqrstuv0bcislands"
                     },
                     {
                         "name": "fileFormatExtension",
@@ -526,7 +532,8 @@
                                 "gml",
                                 "wkt"
                             ]
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "srid",
@@ -579,7 +586,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "abcdefghijklmnopqrstuv0bcislands"
                     },
                     {
                         "name": "fileFormatExtension",
@@ -599,7 +607,8 @@
                                 "gml",
                                 "wkt"
                             ]
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "srid",
@@ -652,7 +661,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "abcdefghijklmnopqrstuv0bcislands"
                     },
                     {
                         "name": "fileFormatExtension",
@@ -672,7 +682,8 @@
                                 "gml",
                                 "wkt"
                             ]
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "srid",

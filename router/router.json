@@ -71,7 +71,8 @@
                                 "html"
                             ],
                             "default": "json"
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "points",
@@ -80,7 +81,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "-123.70794,48.77869,-123.53785,48.38200"
                     },
                     {
                         "name": "outputSRS",
@@ -167,7 +169,8 @@
                                 "html"
                             ],
                             "default": "json"
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "points",
@@ -176,7 +179,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "-123.70794,48.77869,-123.53785,48.38200"
                     },
                     {
                         "name": "outputSRS",
@@ -264,7 +268,8 @@
                                 "html"
                             ],
                             "default": "json"
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "fromPoints",
@@ -273,7 +278,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "-123.70794,48.77869,-123.53785,48.38200"
                     },
                     {
                         "name": "toPoints",
@@ -282,7 +288,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "-124.972951,49.715181,-123.139464,49.704015"
                     },
                     {
                         "name": "outputSRS",
@@ -377,7 +384,8 @@
                                 "html"
                             ],
                             "default": "json"
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "fromPoints",
@@ -386,7 +394,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "-123.70794,48.77869,-123.53785,48.38200"
                     },
                     {
                         "name": "toPoints",
@@ -395,7 +404,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "-124.972951,49.715181,-123.139464,49.704015"
                     },
                     {
                         "name": "outputSRS",
@@ -493,7 +503,8 @@
                                 "html"
                             ],
                             "default": "json"
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "points",
@@ -502,7 +513,8 @@
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "-123.70794,48.77869,-123.53785,48.38200"
                     },
                     {
                         "name": "outputSRS",
