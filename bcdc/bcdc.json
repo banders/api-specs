@@ -29,6 +29,10 @@
         },
         "version": "3.0.1"
     },
+    "externalDocs": {
+        "description": "Developer Guide",
+        "url": "https://github.com/bcgov/gwa/wiki/Developer-Guide"
+    },
     "tags": [
         {
             "name": "action",

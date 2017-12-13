@@ -16,7 +16,7 @@
     ],
     "info": {
         "title": "Geocoder REST API",
-        "description": "This API represents address cleaning, correction, completion, geocoding, reverse geocoding, and proximity resources for intersection addresses, physical addresses and their occupants in British Columbia. CORS is enabled for gov.bc.ca only. Please read our <a href=https://github.com/bcgov/api-specs/blob/master/COLLECTION_NOTICE.md#collection-notice target=\"_blank\">data collection notice</a>",
+        "description": "This API represents address cleaning, correction, completion, geocoding, reverse geocoding, and proximity resources for intersection addresses, physical addresses and their occupants in British Columbia. CORS is enabled for gov.bc.ca only. Please read our [data collection notice](https://github.com/bcgov/api-specs/blob/master/COLLECTION_NOTICE.md#collection-notice). For more information refer to the [Physical Address Geocoder Web Site](http://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/databc/geographic-data-and-services/geocoder)",
         "version": "2.0.0",
         "license": {
             "name": "Open Government License - British Columbia",
@@ -30,8 +30,8 @@
         }
     },
     "externalDocs": {
-        "description": "Physical Address Geocoder Web Site",
-        "url": "http://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/databc/geographic-data-and-services/geocoder"
+        "description": "Developer Guide",
+        "url": "https://github.com/bcgov/gwa/wiki/Developer-Guide"
     },
     "tags": [
         {

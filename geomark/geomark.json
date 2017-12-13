@@ -16,10 +16,10 @@
     ],
     "info": {
         "title": "GeoMark Web Service REST API",
-        "description": "The Geomark Web Service allows you to create and share geographic areas of interest over the web in a variety of formats and coordinate systems. This service is especially helpful when you need to share an area of interest with people who require that the data be in a different format, or they use different mapping software.",
+        "description": "The Geomark Web Service allows you to create and share geographic areas of interest over the web in a variety of formats and coordinate systems. This service is especially helpful when you need to share an area of interest with people who require that the data be in a different format, or they use different mapping software. Additional documentation on the GeoMark web service is available [here](http://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/databc/geographic-data-and-services/geomark-webservice)",
         "termsOfService": "http://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/databc/open-data/api-terms-of-use-for-ogl-information",
         "contact": {
-            "name": "Data BC",
+            "name": "DataBC",
             "url": "http://data.gov.bc.ca/",
             "email": "IDDDBCLS@Victoria1.gov.bc.ca"
         },
@@ -30,8 +30,8 @@
         "version": "4.1.2"
     },
     "externalDocs": {
-        "description": "Geomark Web Service Documentation",
-        "url": "http://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/databc/geographic-data-and-services/geomark-webservice"
+        "description": "Developer Guide",
+        "url": "https://github.com/bcgov/gwa/wiki/Developer-Guide"
     },
     "tags": [
         {

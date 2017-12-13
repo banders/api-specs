@@ -28,6 +28,10 @@
             "url": "http://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/geographical-names"
         }
     },
+    "externalDocs": {
+        "description": "Developer Guide",
+        "url": "https://github.com/bcgov/gwa/wiki/Developer-Guide"
+    },
     "tags": [
         {
             "name": "search"
