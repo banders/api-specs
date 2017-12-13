@@ -77,7 +77,7 @@
                     {
                         "name": "points",
                         "in": "query",
-                        "description": "Example: -123.70794,48.77869,-123.53785,48.38200. A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
+                        "description": "A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
                         "required": true,
                         "schema": {
                             "type": "string"
@@ -175,7 +175,7 @@
                     {
                         "name": "points",
                         "in": "query",
-                        "description": "Example: -123.70794,48.77869,-123.53785,48.38200. A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
+                        "description": "A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
                         "required": true,
                         "schema": {
                             "type": "string"
@@ -274,7 +274,7 @@
                     {
                         "name": "fromPoints",
                         "in": "query",
-                        "description": "Example: -123.70794,48.77869,-123.53785,48.38200. A comma-separated list of origin points.  See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#fromPoints target='_blank'>fromPoints</a>",
+                        "description": "A comma-separated list of origin points.  See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#fromPoints target='_blank'>fromPoints</a>",
                         "required": true,
                         "schema": {
                             "type": "string"
@@ -284,7 +284,7 @@
                     {
                         "name": "toPoints",
                         "in": "query",
-                        "description": "Example: -124.972951,49.715181,-123.139464,49.704015. A comma-separated list of destination points. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#toPoints target='_blank'>toPoints</a>",
+                        "description": "A comma-separated list of destination points. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#toPoints target='_blank'>toPoints</a>",
                         "required": true,
                         "schema": {
                             "type": "string"
@@ -390,7 +390,7 @@
                     {
                         "name": "fromPoints",
                         "in": "query",
-                        "description": "Example: -123.70794,48.77869,-123.53785,48.38200. A comma-separated list of origin points.  See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#fromPoints target='_blank'>fromPoints</a>",
+                        "description": "A comma-separated list of origin points.  See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#fromPoints target='_blank'>fromPoints</a>",
                         "required": true,
                         "schema": {
                             "type": "string"
@@ -400,7 +400,7 @@
                     {
                         "name": "toPoints",
                         "in": "query",
-                        "description": "Example: -124.972951,49.715181,-123.139464,49.704015. A comma-separated list of destination points. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#toPoints target='_blank'>toPoints</a>",
+                        "description": "A comma-separated list of destination points. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#toPoints target='_blank'>toPoints</a>",
                         "required": true,
                         "schema": {
                             "type": "string"
@@ -509,7 +509,7 @@
                     {
                         "name": "points",
                         "in": "query",
-                        "description": "Example: -123.70794,48.77869,-123.53785,48.38200. A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
+                        "description": "A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
                         "required": true,
                         "schema": {
                             "type": "string"
@@ -601,16 +601,18 @@
                                 "html"
                             ],
                             "default": "json"
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "points",
                         "in": "query",
-                        "description": "Example: -123.70794,48.77869,-123.53785,48.38200. A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
+                        "description": "A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "-123.70794,48.77869,-123.53785,48.38200"
                     },
                     {
                         "name": "outputSRS",
@@ -699,16 +701,18 @@
                                 "html"
                             ],
                             "default": "json"
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "points",
                         "in": "query",
-                        "description": "Example: -123.70794,48.77869,-123.53785,48.38200. A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
+                        "description": "A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "-123.70794,48.77869,-123.53785,48.38200"
                     },
                     {
                         "name": "outputSRS",
@@ -795,16 +799,18 @@
                                 "html"
                             ],
                             "default": "json"
-                        }
+                        },
+                        "example": "json"
                     },
                     {
                         "name": "points",
                         "in": "query",
-                        "description": "Example: -123.70794,48.77869,-123.53785,48.38200. A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
+                        "description": "A list of any number of route points in start to end order. See <a href=https://github.com/bcgov/api-specs/blob/master/router/glossary.md#points target='_blank'>points</a>",
                         "required": true,
                         "schema": {
                             "type": "string"
-                        }
+                        },
+                        "example": "-123.70794,48.77869,-123.53785,48.38200"
                     },
                     {
                         "name": "outputSRS",
