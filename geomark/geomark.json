@@ -16,8 +16,8 @@
     ],
     "info": {
         "title": "GeoMark Web Service REST API",
-        "description": "The Geomark Web Service allows you to create and share geographic areas of interest over the web in a variety of formats and coordinate systems. This service is especially helpful when you need to share an area of interest with people who require that the data be in a different format, or they use different mapping software. Additional documentation on the GeoMark web service is available [here](http://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/databc/geographic-data-and-services/geomark-webservice)",
-        "termsOfService": "http://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/databc/open-data/api-terms-of-use-for-ogl-information",
+        "description": "The Geomark Web Service allows you to create and share geographic areas of interest over the web in a variety of formats and coordinate systems. This service is especially helpful when you need to share an area of interest with people who require that the data be in a different format, or they use different mapping software. Additional documentation on the GeoMark web service is available [here](https://www2.gov.bc.ca/gov/content?id=F6BAF45131954020BCFD2EBCC456F084). Please note that you may experience issues when submitting requests to the delivery or test environment if using this [OpenAPI specification](https://github.com/bcgov/api-specs) in other API console viewers.",
+        "termsOfService": "https://www2.gov.bc.ca/gov/content?id=D1EE0A405E584363B205CD4353E02C88",
         "contact": {
             "name": "DataBC",
             "url": "http://data.gov.bc.ca/",
@@ -25,7 +25,7 @@
         },
         "license": {
             "name": "Open Government License - British Columbia",
-            "url": "http://www2.gov.bc.ca/gov/content/governments/about-the-bc-government/databc/open-data/open-government-license-bc"
+            "url": "https://www2.gov.bc.ca/gov/content?id=A519A56BC2BF44E4A008B33FCF527F61"
         },
         "version": "4.1.2"
     },

@@ -16,16 +16,16 @@
     ],
     "info": {
         "title": "BC Geographical Names Web Service - REST API",
-        "description": "This REST API provides searchable access to information about geographical names in the province of British Columbia, including name status and details about the corresponding geographic feature.",
+        "description": "This REST API provides searchable access to information about geographical names in the province of British Columbia, including name status and details about the corresponding geographic feature. Please note that you may experience issues when submitting requests to the delivery or test environment if using this [OpenAPI specification](https://github.com/bcgov/api-specs) in other API console viewers.",
         "version": "3.x.x",
         "license": {
             "name": "Crown Copyright",
-            "url": "http://www2.gov.bc.ca/gov/content/home/copyright"
+            "url": "https://www2.gov.bc.ca/gov/content?id=1AAACC9C65754E4D89A118B875E0FBDA"
         },
         "contact": {
             "name": "BC Geographical Names Office",
             "email": "geographical.names@gov.bc.ca",
-            "url": "http://www2.gov.bc.ca/gov/content/governments/celebrating-british-columbia/historic-places/geographical-names"
+            "url": "https://www2.gov.bc.ca/gov/content?id=A3C60F17CE934B1ABFA366F28C66E370"
         }
     },
     "externalDocs": {
