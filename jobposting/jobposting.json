@@ -182,9 +182,8 @@
                 },
                 "requestBody": {
                     "content": {
-                        "application/x-www-form-urlencoded": {
+                        "multipart/form-data": {
                             "schema": {
-                                "type": "object",
                                 "properties": {
                                     "lastRequestDate": {
                                         "description": "The date of the last request. Only job postings changed or deleted after this time will be included in the response. Default is _today_ - 10 days.",
