@@ -28,10 +28,6 @@
             "url": "https://www2.gov.bc.ca/gov/content?id=A3C60F17CE934B1ABFA366F28C66E370"
         }
     },
-    "externalDocs": {
-        "description": "Developer Guide",
-        "url": "https://github.com/bcgov/gwa/wiki/Developer-Guide"
-    },
     "tags": [
         {
             "name": "search"
