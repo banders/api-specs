@@ -1238,16 +1238,6 @@
                         }
                     },
                     {
-                        "name": "nameAuthority",
-                        "in": "query",
-                        "description": "A filter to limit the search to names under the responsibility of a particular name authority. The specified value must be a nameAuthority ID. Refer to the /nameAuthorities resource for a list of options.",
-                        "required": false,
-                        "schema": {
-                            "type": "string",
-                            "default": "*"
-                        }
-                    },
-                    {
                         "name": "tagId",
                         "in": "query",
                         "description": "A filter to limit the search to names that have been assigned a specific tag.  The specified value must be a tag ID or a comma-separated list of tag IDs (the commas are treated as logical OR operators).  Refer to the /tags resource for a list of options.",
@@ -1411,16 +1401,6 @@
                         "name": "featureType",
                         "in": "query",
                         "description": "A filter to limit the search to names associated with features of a certain 'type'  The value of this parameter should be a 'featureTypeCode' value returned by the /featureTypes resource, or an asterisk (*) to request that all feature types be included",
-                        "required": false,
-                        "schema": {
-                            "type": "string",
-                            "default": "*"
-                        }
-                    },
-                    {
-                        "name": "nameAuthority",
-                        "in": "query",
-                        "description": "A filter to limit the search to names under the responsibility of a particular name authority. The specified value must be a nameAuthority ID. Refer to the /nameAuthorities resource for a list of options.",
                         "required": false,
                         "schema": {
                             "type": "string",
